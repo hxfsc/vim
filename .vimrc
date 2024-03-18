@@ -16,7 +16,7 @@ syntax on
 set hls
 set incsearch
 
-" 自动缩进
+
 set autoindent
 
 " 使用系统clipboard
@@ -57,6 +57,7 @@ call plug#begin()
 	Plug 'junegunn/fzf'
 	Plug 'mattn/emmet-vim'
 	Plug 'connorholyday/vim-snazzy'
+	Plug 'tomtom/tcomment_vim'
 
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
@@ -82,13 +83,12 @@ let g:everforest_better_performance = 1
 
 
 " airline 配置
-"let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline#extensions#tabline#formatter = 'default'
-let g:airline_theme='angr'
-
-
+let g:airline_theme='selenized_bw'
 
 "NERD Tree配置
 nnoremap <C-t> :NERDTreeToggle<CR>
