@@ -4,7 +4,7 @@
 ```bash
  git clone git@github.com:hxfsc/vim.git --depth=1 ~/.vim
  
- ln -s ~/.vimrc ~/.vim/.vimrc
+ ln -s ~/.vim/.vimrc ~/.vimrc 
 ```
 ### NERDTree
 |操作|键|
