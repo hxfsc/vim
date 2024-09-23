@@ -2,7 +2,7 @@
 
 ### 使用
 ```bash
- git clone git@github.com:hxfsc/vim.git --depth=1
+ git clone git@github.com:hxfsc/vim.git --depth=1 ~/.vim
  
  ln -s ~/.vimrc ~/.vim/.vimrc
 ```
